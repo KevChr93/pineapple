@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block content %}
+
+</style>
+<div id="ana">
+
+    <h1>Our pricing plans:</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="jumbotron">
+
+
+                        <b>Free</b>
+                        <ul>
+                            <li> $0 / mo</li>
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+
+                        </ul>
+                        <a type="button"  href="{{ url_for('account') }}" class="btn btn-info">Sign-up</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="jumbotron">
+
+
+
+
+                        <b>Pro</b>
+                        <ul>
+                            <li> $15 / mo</li>
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <a type="button"  href="{{ url_for('account') }}" class="btn btn-info">Sign-up</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="jumbotron">
+                        <b>Enterprise
+                        </b>
+                        <ul>
+                            <li> $29 / mo</li>
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                        </ul>
+
+                       <a type="button"  href="{{ url_for('account') }}" class="btn btn-info">Sign-up</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+        {% endblock content %}
